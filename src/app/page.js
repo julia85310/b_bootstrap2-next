@@ -5,6 +5,10 @@ import Form from './Form';
 import Carousel from './Carrousel';
 import Tabla from './Tabla';
 import ModalForm from './ModalForm';
+import ServiceCards from './ServiceCards';
+import Utility from './Utility';
+import Planes from './Planes';
+import Login from './Login';
 export default function Home() {
   const products = [
     { id: 1, name: 'Producto 1', description: 'Descripción del producto 1', imageUrl: '/producto.png' },
@@ -37,5 +41,9 @@ export default function Home() {
     <Form></Form>
     <Tabla></Tabla>
     <ModalForm></ModalForm>
+    <ServiceCards></ServiceCards>
+    <Utility></Utility>
+    <Planes></Planes>
+    <Login></Login>
   </div>);
 }
